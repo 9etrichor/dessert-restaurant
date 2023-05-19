@@ -1,14 +1,16 @@
 import './style.css';
+import NavHeader from './component/NavHeader';
+import Home from './component/Home.js';
+import Menu from './component/Menu';
+import Contact from './component/Contact';
 
-function component() {
-   const element = document.createElement('div');
 
-   // Lodash, now imported by this script
-   element.innerHTML = 'hihi';
-   element.classList.add('hello');
+const bgElement = document.getElementById('content');
+bgElement.innerHTML += NavHeader();
+//bgElement.innerHTML += Home();
+bgElement.innerHTML += Contact();
+//bgElement.innerHTML += Menu();
 
-   return element;
- }
+const navHeader = document.getElementById('nav-header');
+navHeader.addEventListener()
 
-document.body.appendChild(component());
-console.log('hi22')

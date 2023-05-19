@@ -1,3 +1,17 @@
-.hello {
-  color: red;
+html {
+  font-size: 16px;
+}
+
+#nav-list {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+img {
+  max-width: 20vw;
+}
+
+ul {
+  
 }
